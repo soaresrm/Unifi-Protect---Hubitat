@@ -179,7 +179,7 @@ def nvr_bootstrapPollCallback( hubitat.device.HubResponse hubResponse )
             
             try
             {
-                addChildDevice( "project802", "UniFi Protect Camera", dni, location.hubs[0].id, metaData )
+                addChildDevice( "Soaresrm", "UniFi Protect Camera", dni, location.hubs[0].id, metaData )
             }
             catch( exception )
             {
